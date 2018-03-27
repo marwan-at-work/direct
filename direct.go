@@ -8,5 +8,6 @@ import (
 
 // Hello uses jwt
 func Hello() {
-	fmt.Println(jwt.GetSigningMethod(""))
+	fmt.Println("Hello from direct")
+	jwt.GetSigningMethod("")
 }
